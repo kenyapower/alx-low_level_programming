@@ -6,7 +6,7 @@
  * main - Entry point
  * Description - print statements based on random numbers
  *
- * return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
