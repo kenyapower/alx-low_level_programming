@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - Program starts here
@@ -15,5 +17,5 @@ int main(void)
 		putchar(i);
 		putchar('\n');
 
-	return (0);
+		return (0);
 }
