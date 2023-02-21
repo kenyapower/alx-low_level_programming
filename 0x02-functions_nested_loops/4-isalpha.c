@@ -2,9 +2,9 @@
 
 /**
  * main - Entry Point
- * Description - function that checks for alphabetic character
- *
- * Return: Always 0 (Success)
+ * Description: function returns 1 if the character is a
+ * letter, lowercase or uppercase.
+ * Return: 1 or 0 in otherwise.
  */
 
 int _isalpha(int c)
