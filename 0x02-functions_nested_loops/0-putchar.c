@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
  * main - Entry Point
@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int k;
+	char k;
 
 	for (k = '0'; k < '9'; k++)
 	{
