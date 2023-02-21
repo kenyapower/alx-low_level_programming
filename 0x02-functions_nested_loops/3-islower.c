@@ -5,7 +5,6 @@
  * _islower - Check for lower characters
  * @c: An input character
  * Description: function uses _putchar function to print
- * Description: function _islower to print lowercase only
  * alphabet in lowercase 10 times
  * Return: 1 if is lowercase or 0 if is uppercase
  */
