@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include "main.h"
 
 /**
@@ -10,14 +9,15 @@
 
 int main(void)
 {
-	char k;
-
-	for (k = '0'; k < '9'; k++)
-	{
-		_putchar(k);
-	}
-
-		_putchar('\n');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
 	return (0);
 }
