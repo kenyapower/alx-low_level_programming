@@ -1,11 +1,12 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
  * main - Entry point
- * Desc - function that checks for lowercase character
- *
- * Result: Always 0 (Success)
+ * _islower - Check for lower characters
+ * @c: An input character
+ * Description: function uses _putchar function to print
+ * alphabet in lowercase 10 times
+ * Return: 1 if is lowercase or 0 if is uppercase
  */
 
 int _islower(int c)
