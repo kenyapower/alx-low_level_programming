@@ -1,3 +1,4 @@
+#include <unistd.h>
 #include "main.h"
 
 /**
@@ -9,7 +10,7 @@
 
 int main(void)
 {
-	char k[] = "_putchar";
+	char k;
 
 	for (k = '0'; k < '9'; k++)
 	{
