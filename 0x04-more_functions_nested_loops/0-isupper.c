@@ -8,13 +8,14 @@
 
 int _isupper(int c)
 {
-	char cap = 'A';
+	char caps = 'A';
+	char small = 'a';
 
 	if (c == cap)
 	{
 		return (1);
 	}
-	else
+	else if (c == small)
 	{
 		return (0);
 	}
