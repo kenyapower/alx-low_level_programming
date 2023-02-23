@@ -3,7 +3,7 @@
 /**
  * print_numbers - gets numbers from 0 - 9
  *
- *Return: always 0 (success)
+ *Return: Always 0 (success)
  */
 
 void print_numbers(void)
