@@ -5,7 +5,7 @@
  * do not print 2 & 4
  * use ascii referencing
  *
- * Return: 0
+ * Return: nothing
  */
 
 void print_most_numbers(void)
