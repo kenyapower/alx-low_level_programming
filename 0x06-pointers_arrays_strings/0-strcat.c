@@ -5,10 +5,10 @@
  * @dest: is an input string
  * @src: is an input string
  *
- * return: A pointer of resultant
+ * Return: A pointer of resultant
  */
 
-char *_strcat(char *dest,char *src)
+char *_strcat(char *dest, char *src)
 {
 	char *lot = dest;
 
