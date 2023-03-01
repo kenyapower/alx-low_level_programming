@@ -10,26 +10,20 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int srclen = 0, i = 0;
-	char *lot = dest, *start = src;
+	int count = 0, count2 = 0;
 
-	while (*src)
+	while (*(dest + count) != '\0')
 	{
-		srclen++;
-		src++;
+		count++;
 	}
 
-	while (*dest)
-		dest++;
-
-	if (n > srclen)
-		n = srclen;
-
-	src = start;
-
-		for (i < n; i++)
-		*dest++ = *src++;
-
-	*dest = '\0';
-	return (lot);
+	while (count2 < n)
+	{
+		*(dest + count) = *(src + count2);
+		if (*(src + count2) == '\0')
+			break;
+		count++;
+		count2++;
+	}
+	return (dest);
 }
