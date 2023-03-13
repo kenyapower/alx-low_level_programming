@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- *_strdup - function returns a pointer to a new string which is a duplicate of the string str.
+ *_strdup - function returns a pointer to new string of duplicate str
  *@str: input pointer of string
  *Return: NULL if str = NULL
  */
